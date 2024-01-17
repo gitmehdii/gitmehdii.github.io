@@ -42,3 +42,19 @@ p {
 }
 
 a { color: blue; }
+
+.section-1 {
+    background-color: lemonchiffon;
+}
+.section-2 {
+    background-color: lightpink;
+}
+.section-3 {
+    background-color: lightgreen;
+}
+.section-4 {
+    background-color: lightgray;
+}
+.section-5 {
+    background-color: lightyellow;
+}
