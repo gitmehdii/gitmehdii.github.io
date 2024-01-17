@@ -8,10 +8,21 @@ body { line-height: 1.5; min-height: 100vh }
 @media (min-width: 768px) {
     body { padding: 4% 20% }
  }
+
+ @font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/starjedi/Starjedi.ttf");
+}
  
  /* Mobiles */
  @media (max-width: 767px) {
     body { padding: 8% 5% }
+    /*Delete the video*/
+    .video-2{
+        display: none;
+    }
+    
+
  }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
@@ -24,17 +35,14 @@ body { padding: 4% 20% }
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: #fef1ef;
-    color: #1e266d;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(247, 247, 247, 0.5),
-        rgb(0 0 255 / 50%)
-      );
+    background-color: black;
 }
 
 h1 {
     font-size: 78px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    position: relative;
     font-weight: normal;
     letter-spacing: -2px;
     margin-bottom: 12px;
@@ -57,7 +65,7 @@ h3 {
 }
 
 p {
-    color: #F8F8FF;
+    color: #d3d3d3;
     font-size: 20px;
     margin-bottom: 16px;
 }
@@ -66,7 +74,12 @@ p {
      background-color: #000;
     color: #fff;
 }
-
+a{
+  color:#87CEEB;
+}
+a:visited {
+  color: #1E90FF; /* Couleur du texte pour les liens visités */
+}
 /* ====== NAVIGATION BAR ====== */
 .nav-horizontal {
     background-color: #fff;
@@ -103,4 +116,24 @@ p {
         }
       }
     }
+  }
+
+.video-2 {
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  }
+
+.container {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+  max-width: 80%; 
+
   }
