@@ -15,6 +15,10 @@
 
       gtag('config', 'G-3PVDXHEE8D');
     </script>
+    
+    <!-- Styles for Cookie Consent Popup Message  -->
+    <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
+    
 </head>
 <body>
 
@@ -75,5 +79,23 @@
     <p><a href="exercises/hero-image.html">Hero block with animated image</a></p> 
     <p><a href="exercises/hero-video.html">Hero block with background video</a></p> 
     </div>
+    
+    <!-- JavaScript for Cookie Consent Popup Message -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#000"
+            },
+            "button": {
+                "background": "#f1d600"
+            }
+        },
+        "content": {
+            "href": "gitmehdii.github.io/privacy.html"
+        }
+    });
+    </script>
 </body>
 </html>
