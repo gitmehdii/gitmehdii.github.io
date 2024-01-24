@@ -1,0 +1,209 @@
+
+html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+    scroll-behavior: smooth; scroll-padding-top: 20px }
+
+* { margin: 0; padding: 0; border: none }
+
+
+.hero-block {
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gray;
+    overflow: none;
+  }
+  
+  @media (min-width: 768px) { 
+      .hero-block { height: 80vh }
+
+  }
+  .hero-text-container { 
+    padding: 0 12% 4% 12%;
+    z-index: 1;
+   }
+   .hero-bg-media {
+    position: absolute; top: 0; right: 0; bottom: 0; left: 0; 
+    z-index: 0;
+    filter: blur(3px);
+}
+.hero-block .slide-in-top{
+    color: white;
+    font-size: 3em;
+    font-family: 'Hind', sans-serif;
+    text-shadow: black 10px 0 10px;
+}
+.hero-block .slide-in-left{
+    margin-top: -30px;
+    color: rgb(29, 193, 253);
+    font-size: 6em;
+    font-family: 'Hind', sans-serif;
+    text-shadow: black 10px 0 10px;
+}
+.hero-bg-media * {
+    object-fit: cover; width: 100%; height: 100%;
+    /*background-image: linear-gradient(rgba(29,38,113,0.7),rgba(195,55,100,0.3));*/
+
+}
+.lettre1{
+    color: #2d22ff;
+}
+.lettre2{
+    color: #ff2d2d;
+}
+.messi{
+    /*circle image*/
+    border-radius: 50%;
+    /*tranparent background*/
+    background-color: transparent;
+    width: 220px;
+    height: 200px;
+    margin-top: -150px;
+    margin-left: 50px;
+}
+.hero-text-container2
+{
+    display: flex;
+}
+.slide-in-top2{
+    color: rgb(178, 178, 178);
+    text-shadow: black 10px 0 10px;
+}
+.slide-in-left2{
+    color: rgb(230, 222, 222);
+    text-shadow: black 10px 0 10px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Hind', sans-serif;
+    text-shadow: rgb(90, 90, 90) 7px 0 10px;
+    /*enlever le point du li*/
+    list-style-type: none;
+    margin-left: 10px;
+    color: rgb(230, 222, 222);
+}
+.nav-bar{
+    display: flex;
+    margin-left: -15px;
+    margin-bottom: 40px;
+    /*put the navbar at the right part of the page*/
+    margin-left: 65%;
+}
+.number
+{
+    color: rgb(0, 234, 255);
+    font-family: 'Lato', sans-serif;
+}
+.skill-part
+{
+    background-color: #1e1d1d;
+    z-index: 1;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-vecteurs-libre%2Fsombre&psig=AOvVaw1y40MgoKWM5OsLjwaFpILU&ust=1706110913508000&source=images&cd=vfe&ved=0CBMQjRxqFwoTCMCrmMvs84MDFQAAAAAdAAAAABAJ);
+    filter: blur(8px);
+}
+
+.skill-title
+{
+    color: white;
+    font-size: 3em;
+    font-family: 'Hind', sans-serif;
+    z-index: 2;
+    text-shadow: rgb(90, 90, 90) 7px 0 10px;
+    margin-left: 10%;
+}
+
+.mini-title
+{
+    color: rgb(0, 221, 255);
+    font-size: 2.5em;
+    font-family: 'Hind', sans-serif;
+    z-index: 2;
+    text-shadow: rgb(90, 90, 90) 7px 0 10px;
+    text-align: center;
+}
+.skill{
+    background-color: #535151;
+}
+
+.logo{
+    width: 43px;
+    height: 40px;
+}
+.css{
+    width: 35px;
+    height: 38px;
+    margin-left: 6px;
+}
+.flex {
+    display: flex;
+}
+.items-center {
+    align-items: center;
+}
+.gap-2
+{
+    gap: 0.5rem;
+}
+.front-end
+{
+    background-color: antiquewhite;
+    /*agrandir la div*/
+    border: #1e1d1d 1px solid;
+    width: 10%;
+    /*decaler la div*/
+    margin-left: 12%;
+
+}
+.text-center2
+{
+    text-align: center;
+}
+
+.parti
+{
+    display: flex;
+}
+.back-end
+{
+    background-color: antiquewhite;
+    /*agrandir la div*/
+    border: #1e1d1d 1px solid;
+    width: 10%;
+    /*decaler la div*/
+    margin-left: 12%;
+}
+.c-sharp
+{
+    height: 35px;
+    width: 38;
+    margin-left: 6px;
+}
+
+.prog
+{
+    background-color: antiquewhite;
+    /*agrandir la div*/
+    border: #1e1d1d 1px solid;
+    width: 10%;
+    /*decaler la div*/
+    margin-left: 12%;
+}
+.other
+{
+    background-color: antiquewhite;
+    /*agrandir la div*/
+    border: #1e1d1d 1px solid;
+    width: 10%;
+    /*decaler la div*/
+    margin-left: 12%;
+}
+
+.project
+{
+    background-color: #c2985e;
+}
