@@ -17,7 +17,23 @@ html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
   
   @media (min-width: 768px) { 
       .hero-block { height: 80vh }
+      
 
+  }
+  @media (max-width: 767px) { 
+    .messi{
+      display: none;
+    }
+    .parti{
+      display: none;
+    }
+    .front-end{
+      display: none;
+    }
+    .skill{
+      display: none;
+    }
+    
   }
   .hero-text-container { 
     padding: 0 12% 4% 12%;
@@ -57,8 +73,8 @@ html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
     border-radius: 50%;
     /*tranparent background*/
     background-color: transparent;
-    width: 220px;
-    height: 200px;
+    width: 280px;
+    height: 250px;
     margin-top: -150px;
     margin-left: 50px;
 }
