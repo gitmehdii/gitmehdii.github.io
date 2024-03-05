@@ -1,0 +1,22 @@
+{
+  "name": "app-mongodb-basic",
+  "version": "1.0.0",
+  "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Mehdi AZOUZ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
