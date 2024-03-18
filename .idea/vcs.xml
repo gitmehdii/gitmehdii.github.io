@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react/app-react-basic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react/reactjs-hook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react/test-deploy-app" vcs="Git" />
   </component>
 </project>
