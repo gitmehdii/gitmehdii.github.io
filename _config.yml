@@ -3,3 +3,4 @@ exclude:
   - .git/
   - react/
   - javascript/app-express-basic
+  - javascript/app-mongodb
