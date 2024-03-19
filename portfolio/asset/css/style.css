@@ -4,6 +4,15 @@ html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 
 * { margin: 0; padding: 0; border: none }
 
+@font-face {
+    font-family: 'MaPolice'; /* Nom de votre police */
+    src: url('Farsan-Regular.ttf') format('truetype') /* Chemin relatif vers le fichier .ttf */
+}
+
+Body{
+    font-family: 'MaPolice', sans-serif;
+
+}
 
 .hero-block {
     min-height: 500px;
